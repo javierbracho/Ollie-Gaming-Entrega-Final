@@ -1,0 +1,74 @@
+.producto-banner {
+    width: 100vw;
+    margin-bottom: 3rem;
+}
+
+.productos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "notebook-1  notebook-2  notebook-3"
+        "notebook-4  notebook-5  notebook-6"
+        "notebook-7  notebook-8  notebook-9";
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem
+}
+
+.card-1 {
+    grid-area: notebook-1;
+    width: auto;
+    text-align: center;
+
+}
+
+.card-2 {
+    grid-area: notebook-2;
+    width: auto;
+    text-align: center;
+}
+
+.card-3 {
+    grid-area: notebook-3;
+    width: auto;
+    text-align: center;
+}
+
+.card-4 {
+    grid-area: notebook-4;
+    width: auto;
+    text-align: center;
+}
+
+.card-5 {
+    grid-area: notebook-5;
+    width: auto;
+    text-align: center;
+}
+
+.card-6 {
+    grid-area: notebook-6;
+    width: auto;
+    text-align: center;    
+}
+
+.card-7 {
+    grid-area: notebook-7;
+    width: auto;
+    text-align: center;
+}
+
+.card-8 {
+    grid-area: notebook-8;
+    width: auto;
+    text-align: center;
+}
+
+.card-9 {
+    grid-area: notebook-9;
+    width: auto;
+    text-align: center;
+}
