@@ -281,34 +281,31 @@
   .marcas-principales-notebook img {
     width: 90vw;
   }
-}
-.banner-principal {
-  margin-bottom: 3rem;
-}
-.banner-principal-imagen {
-  width: auto;
-  height: auto;
-}
-
-.marcas-alternativas {
-  margin-bottom: 5rem;
-}
-.marcas-alternativas-imagen {
-  width: 25vw;
-  height: auto;
-}
-
-.productos {
-  grid-template-columns: 38vw 38vw;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "notebook-1  notebook-2" "notebook-3  notebook-4" "notebook-5  notebook-6" "notebook-7  notebook-8" "notebook-9    .       ";
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-}
-footer-parrafo {
-  width: auto;
-  height: auto;
+  .banner-principal {
+    margin-bottom: 3rem;
+  }
+  .banner-principal-imagen {
+    width: auto;
+    height: auto;
+  }
+  .marcas-alternativas {
+    margin-bottom: 5rem;
+  }
+  .marcas-alternativas-imagen {
+    width: 25vw;
+    height: auto;
+  }
+  .productos {
+    grid-template-columns: 38vw 38vw;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "notebook-1  notebook-2" "notebook-3  notebook-4" "notebook-5  notebook-6" "notebook-7  notebook-8" "notebook-9    .       ";
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer-parrafo {
+    width: auto;
+    height: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
