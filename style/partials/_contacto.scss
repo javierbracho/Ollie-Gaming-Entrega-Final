@@ -9,9 +9,9 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 5rem;
-}
 
-.caja-de-contacto-texto {
-    display: flex;
-    flex-direction: column;
+        &-texto {
+            display: flex;
+            flex-direction: column;
+        }
 }

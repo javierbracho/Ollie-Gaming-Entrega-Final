@@ -7,8 +7,7 @@
 .contenedor-logo-principal {
   background-color: rgb(37, 20, 45);
 }
-
-.logo-principal {
+.contenedor-logo-principal-imagen {
   width: 400px;
   display: block;
   margin-left: auto;
@@ -106,7 +105,7 @@
   height: 100%;
 }
 
-footer {
+.footer {
   padding: 0.7rem;
   display: flex;
   justify-content: space-between;
@@ -114,42 +113,35 @@ footer {
   background-color: rgb(37, 20, 45);
   font-size: 1rem;
 }
-
-.parrafo {
+.footer-parrafo {
   width: 421px;
   height: 40px;
 }
-
-footer p {
+.footer p {
   color: white;
   width: 100%;
   height: 100%;
   margin-bottom: 0px;
   padding-top: 10px;
 }
-
-.redes-sociales {
+.footer-redes-sociales {
   display: flex;
   justify-content: space-between;
   width: 150px;
 }
-
-.instagram {
+.footer-redes-sociales-instagram {
   width: 43.2px;
   height: 43.2px;
 }
-
-.twitter {
+.footer-redes-sociales-twitter {
   width: 43.2px;
   height: 43.2px;
 }
-
-.facebook {
+.footer-redes-sociales-facebook {
   width: 43.2px;
   height: 43.2px;
 }
-
-.redes-sociales img {
+.footer-redes-sociales img {
   width: 100%;
   height: 100%;
 }
@@ -170,56 +162,47 @@ footer p {
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
-
-.card-1 {
+.productos-card-1 {
   grid-area: notebook-1;
   width: auto;
   text-align: center;
 }
-
-.card-2 {
+.productos-card-2 {
   grid-area: notebook-2;
   width: auto;
   text-align: center;
 }
-
-.card-3 {
+.productos-card-3 {
   grid-area: notebook-3;
   width: auto;
   text-align: center;
 }
-
-.card-4 {
+.productos-card-4 {
   grid-area: notebook-4;
   width: auto;
   text-align: center;
 }
-
-.card-5 {
+.productos-card-5 {
   grid-area: notebook-5;
   width: auto;
   text-align: center;
 }
-
-.card-6 {
+.productos-card-6 {
   grid-area: notebook-6;
   width: auto;
   text-align: center;
 }
-
-.card-7 {
+.productos-card-7 {
   grid-area: notebook-7;
   width: auto;
   text-align: center;
 }
-
-.card-8 {
+.productos-card-8 {
   grid-area: notebook-8;
   width: auto;
   text-align: center;
 }
-
-.card-9 {
+.productos-card-9 {
   grid-area: notebook-9;
   width: auto;
   text-align: center;
@@ -237,7 +220,6 @@ footer p {
   flex-direction: column;
   margin-bottom: 5rem;
 }
-
 .caja-de-contacto-texto {
   display: flex;
   flex-direction: column;
@@ -259,8 +241,7 @@ footer p {
   width: 100vw;
   margin-bottom: 3rem;
 }
-
-.quienes-somos {
+.quienes-somos-banner .quienes-somos {
   width: 95%;
   margin: auto auto;
   text-align: justify;
@@ -279,21 +260,16 @@ footer p {
 }
 
 @media screen and (max-width: 572px) {
-  .logo-principal {
+  .contenedor-logo-principal-imagen {
     width: 100%;
   }
   .main-grilla {
     margin-bottom: 1px;
   }
-  .grilla {
+  .main-grilla-hija {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "todocomputador  mejoresaccesorios" "mejorpcgamer  tarjetasdevideo";
-  }
-  .productos {
-    grid-template-columns: 38vw 38vw;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "notebook-1  notebook-2" "notebook-3  notebook-4" "notebook-5  notebook-6" "notebook-7  notebook-8" "notebook-9    .       ";
   }
   .marcas-principales {
     display: flex;
@@ -302,29 +278,37 @@ footer p {
     margin-bottom: 0.5rem;
     align-items: center;
   }
-  .notebook img {
+  .marcas-principales-notebook img {
     width: 90vw;
   }
-  .banner-principal {
-    margin-bottom: 3rem;
-  }
-  .banner-principal-imagen {
-    width: auto;
-    height: auto;
-  }
-  .marcas-alternativas {
-    margin-bottom: 5rem;
-  }
-  .marcas-alternativas-imagen {
-    width: 25vw;
-    height: auto;
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-  .parrafo {
-    width: auto;
-    height: auto;
-  }
+}
+.banner-principal {
+  margin-bottom: 3rem;
+}
+.banner-principal-imagen {
+  width: auto;
+  height: auto;
+}
+
+.marcas-alternativas {
+  margin-bottom: 5rem;
+}
+.marcas-alternativas-imagen {
+  width: 25vw;
+  height: auto;
+}
+
+.productos {
+  grid-template-columns: 38vw 38vw;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "notebook-1  notebook-2" "notebook-3  notebook-4" "notebook-5  notebook-6" "notebook-7  notebook-8" "notebook-9    .       ";
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer-parrafo {
+  width: auto;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
