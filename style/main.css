@@ -24,53 +24,44 @@
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
-.grilla {
+.main-grilla-hija {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "todocomputador  mejorpcgamer  mejoresaccesorios" "todocomputador  tarjetasdevideo  mejoresaccesorios";
   gap: 1rem;
 }
-
-.todocomputador {
+.main-grilla-hija-todocomputador {
   grid-area: todocomputador;
 }
-
-.todocomputador-imagen {
+.main-grilla-hija-todocomputador-imagen {
   width: 100%;
   height: 100%;
   -o-object-fit: fill;
      object-fit: fill;
 }
-
-.mejorpcgamer {
+.main-grilla-hija-mejorpcgamer {
   grid-area: mejorpcgamer;
 }
-
-.mejorpcgamer-imagen {
+.main-grilla-hija-mejorpcgamer-imagen {
   width: 100%;
   height: 100%;
   -o-object-fit: fill;
      object-fit: fill;
 }
-
-.tarjetasdevideo {
+.main-grilla-hija-tarjetasdevideo {
   grid-area: tarjetasdevideo;
 }
-
-.tarjetasdevideo-imagen {
+.main-grilla-hija-tarjetasdevideo-imagen {
   width: 100%;
   height: 100%;
   -o-object-fit: fill;
      object-fit: fill;
 }
-
-.mejoresaccesorios {
+.main-grilla-hija-mejoresaccesorios {
   grid-area: mejoresaccesorios;
 }
-
-.mejoresaccesorios-imagen {
+.main-grilla-hija-mejoresaccesorios-imagen {
   width: 100%;
   height: 100%;
   -o-object-fit: fill;
@@ -82,8 +73,7 @@
   justify-content: space-evenly;
   margin-bottom: 7rem;
 }
-
-.notebook img {
+.marcas-principales-notebook img {
   width: 28vw;
 }
 
@@ -93,12 +83,10 @@
   align-items: center;
   margin-bottom: 5rem;
 }
-
 .banner-principal-imagen {
   width: 95vw;
   height: 10vw;
 }
-
 .banner-principal-imagen img {
   width: 100%;
   height: 100%;
@@ -109,12 +97,10 @@
   justify-content: space-evenly;
   margin-bottom: 7rem;
 }
-
 .marcas-alternativas-imagen {
   width: 17vw;
   height: 5vw;
 }
-
 .marcas-alternativas-imagen img {
   width: 100%;
   height: 100%;
