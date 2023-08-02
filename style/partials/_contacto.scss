@@ -4,10 +4,7 @@
 }
 
 .caja-de-contacto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    @include flex-column-center-center;
     margin-bottom: 5rem;
 
         &-texto {

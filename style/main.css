@@ -16,6 +16,7 @@
 
 .main-grilla {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
@@ -78,6 +79,7 @@
 
 .banner-principal {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
@@ -215,9 +217,9 @@
 
 .caja-de-contacto {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5rem;
 }
 .caja-de-contacto-texto {
@@ -241,7 +243,8 @@
   width: 100vw;
   margin-bottom: 3rem;
 }
-.quienes-somos-banner .quienes-somos {
+
+.quienes-somos {
   width: 95%;
   margin: auto auto;
   text-align: justify;
@@ -254,6 +257,7 @@
 
 .mapas {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
