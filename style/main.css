@@ -303,7 +303,7 @@
     width: 100%;
   }
   .main-grilla {
-    margin-bottom: 1px;
+    margin-bottom: 3rem;
   }
   .main-grilla-hija {
     grid-template-columns: 1fr 1fr;
@@ -313,12 +313,17 @@
   .marcas-principales {
     display: flex;
     flex-direction: column;
-    height: 1080px;
-    margin-bottom: 0.5rem;
+    height: auto;
+    justify-content: stretch;
+    gap: 3rem;
+    margin-bottom: 3rem;
     align-items: center;
   }
   .marcas-principales-notebook img {
     width: 90vw;
+  }
+  .marcas-principales-notebook img:hover {
+    width: 93vw;
   }
   .banner-principal {
     margin-bottom: 3rem;
@@ -339,11 +344,11 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "notebook-1  notebook-2" "notebook-3  notebook-4" "notebook-5  notebook-6" "notebook-7  notebook-8" "notebook-9    .       ";
   }
-  footer {
+  .footer {
     display: flex;
     flex-direction: column;
   }
-  footer-parrafo {
+  .footer-parrafo {
     width: auto;
     height: auto;
   }

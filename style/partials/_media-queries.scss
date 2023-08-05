@@ -3,7 +3,7 @@
         width: 100%; 
     }    
     .main-grilla {
-        margin-bottom: 1px;
+        margin-bottom: 3rem;
 
             &-hija {
                 grid-template-columns: 1fr 1fr;
@@ -17,13 +17,20 @@
     .marcas-principales{
         display: flex;
         flex-direction: column;
-        height: 1080px;
-        margin-bottom: 0.5rem;
+        height: auto;
+        justify-content: stretch;
+        gap: 3rem;
+        margin-bottom: 3rem;
         align-items: center;
 
             &-notebook img {
                     width: 90vw;
                 }
+
+                &-notebook img:hover{
+                    width: 93vw;
+                }
+    
             }
 
 
@@ -56,7 +63,7 @@
             "notebook-9    .       ";   
     }   
 
-    footer {
+    .footer {
         display: flex;
         flex-direction: column;
 
