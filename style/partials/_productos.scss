@@ -21,6 +21,7 @@
             grid-area: notebook-1;
             width: auto;
             text-align: center;
+
         
         }
         
@@ -28,47 +29,102 @@
             grid-area: notebook-2;
             width: auto;
             text-align: center;
+
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+
+            }
+
         }
         
         &-card-3 {
             grid-area: notebook-3;
             width: auto;
             text-align: center;
+
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    
+                }
+                                            
         }
         
         &-card-4 {
             grid-area: notebook-4;
             width: auto;
             text-align: center;
+
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    
+                }
+
         }
         
         &-card-5 {
             grid-area: notebook-5;
             width: auto;
             text-align: center;
+
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    
+                }
+
         }
         
         &-card-6 {
             grid-area: notebook-6;
             width: auto;
-            text-align: center;    
+            text-align: center; 
+                
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                }
+            
         }
         
         &-card-7 {
             grid-area: notebook-7;
             width: auto;
             text-align: center;
+
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    
+                }
+
         }
         
         &-card-8 {
             grid-area: notebook-8;
             width: auto;
             text-align: center;
+
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    
+                }
+
         }
         
         &-card-9 {
             grid-area: notebook-9;
             width: auto;
             text-align: center;
+
+                &:hover {
+                    -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+                    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    
+                }
+
         }
 }
