@@ -62,7 +62,12 @@
         &-notebook img {
             width: 28vw;
         }
-}
+
+            &-notebook img:hover{
+                width: 30vw;
+            }
+
+    }
 
 .banner-principal {
     @include flex-row-center-center;
