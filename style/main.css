@@ -82,7 +82,7 @@
   width: 28vw;
 }
 .marcas-principales-notebook img:hover {
-  width: 30vw;
+  transform: scale(1.1);
 }
 
 .banner-principal {
