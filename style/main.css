@@ -298,6 +298,16 @@
   margin-bottom: 5rem;
 }
 
+.direccion {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .direccion {
+    width: 85%;
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 572px) {
   .contenedor-logo-principal-imagen {
     width: 100%;
