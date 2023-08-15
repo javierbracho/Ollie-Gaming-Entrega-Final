@@ -178,7 +178,7 @@
   text-align: center;
 }
 .productos-card-1:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-2 {
   grid-area: notebook-2;
@@ -186,7 +186,7 @@
   text-align: center;
 }
 .productos-card-2:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-3 {
   grid-area: notebook-3;
@@ -194,7 +194,7 @@
   text-align: center;
 }
 .productos-card-3:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-4 {
   grid-area: notebook-4;
@@ -202,7 +202,7 @@
   text-align: center;
 }
 .productos-card-4:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-5 {
   grid-area: notebook-5;
@@ -210,7 +210,7 @@
   text-align: center;
 }
 .productos-card-5:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-6 {
   grid-area: notebook-6;
@@ -218,7 +218,7 @@
   text-align: center;
 }
 .productos-card-6:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-7 {
   grid-area: notebook-7;
@@ -226,7 +226,7 @@
   text-align: center;
 }
 .productos-card-7:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-8 {
   grid-area: notebook-8;
@@ -234,7 +234,7 @@
   text-align: center;
 }
 .productos-card-8:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 .productos-card-9 {
   grid-area: notebook-9;
@@ -242,7 +242,7 @@
   text-align: center;
 }
 .productos-card-9:hover {
-  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  transform: scale(1.1);
 }
 
 .contacto-banner {
